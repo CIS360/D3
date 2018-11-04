@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (max-device-width: 480px), (max-width:480px)" />
 <link rel="stylesheet" type="text/css" href="css/mid.css" media="only screen and (max-device-width: 768px) and (min-device-width:481px), (min-width:481px) and (max-width:768px)" />
 <link rel="stylesheet" type="text/css" href="css/max.css" media="only screen and (min-device-width: 769px) and (min-width:769px)" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <title>Green@CSU</title>
 
@@ -49,46 +50,50 @@
         <div style="height:8px;">
         </div>
         	<div id="deptlogo">
-            <div style="color: white;">Green@CSU</div>
+            <a href="" style="color: white;">Green@CSU</a>
             </div>
         </div>
 	</div>
 
 </div>
 
-<div id='cssmenu' onclick="bars(this)">
-	<div class="bar1"></div>
- 	<div class="bar2"></div>
-  	<div class="bar3"></div>
-<ul>
-   <li class='active has-sub'><a href='#'><span>About</span></a>
-   		<ul>
-         <li><a href='#'><span>People</span></a>
-         </li>
-         <li><a href='#'><span>Next</span></a>
-         </li>
-      	</ul>
-   </li>
-   <li class='active has-sub'><a href='#'><span>Research</span></a>
-      <ul>
-         <li><a href='#'><span>Product 1</span></a>
-         </li>
-         <li><a href='#'><span>Product 2</span></a>
-         </li>
-      </ul>
-   </li>
-   <li><a href='#'><span>Future Students</span></a></li>
-   <li><a href='#'><span>Undergraduate Students</span></a></li>
-   <li><a href='#'><span>Graduate Students</span></a></li>
-   <li><a href='#'><span>Faculty & Staff</span></a></li>
-   <li class='last'><a href='#'><span>Alumni & Friends</span></a></li>
-</ul>
+<div style="height:20px;">
 </div>
 
+<div class="container text-center">
+	<div class="row">
+		<div class="col-3">
 
-<div style="height:32px;">
+		</div>
+		<div class="col">
+			<div class="card text-center">
+			  <div class="card-header">
+			    Welcome
+			  </div>
+			  <div class="card-body">
+			    <h5 class="card-title">Log-In</h5>
+					<div class="">
+					  <form role="form" method="">
+						<div class="form-group">
+						  <input type="text" class="form-control" id="usrname" placeholder="eID" name="txtemail">
+						</div>
+						<div class="form-group">
+						  <input type="password" class="form-control" id="psw" placeholder="eID Pass" name="txtpass">
+						</div>
+						  <a href="./home.html"class="btn btn-block" style="color:white; background: #286739;">Login</a>
+					  </form>
+					</div>
+			  </div>
+			  <div class="card-footer text-muted">
+
+			  </div>
+			</div>
+		</div>
+		<div class="col-3">
+
+		</div>
+	</div>
 </div>
-
 
 
 
@@ -124,5 +129,11 @@ function bars(x) {
 }
 </script>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
+
