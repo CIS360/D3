@@ -14,6 +14,13 @@
 <link rel="stylesheet" type="text/css" href="css/max.css" media="only screen and (min-device-width: 769px) and (min-width:769px)" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+<style>
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}
+</style>
+
 <title>Green@CSU</title>
 
 </head>
@@ -52,21 +59,6 @@
 	</div>
 
 </div>
-
-<div id='cssmenu' onclick="bars(this)">
-	<div class="bar1"></div>
- 	<div class="bar2"></div>
-  	<div class="bar3"></div>
-<ul>
-   <li class='active has-sub'><a href='#'><span>Home</span></a>
-   </li>
-   <li><a href='#'><span>Enter Green Action</span></a></li>
-   <li><a href='#'><span>Provide Feedback</span></a></li>
-   <li><a href='#'><span>About Green@CSU</span></a></li>
-   <li class='last'><a href='#'><span>Manage Account</span></a></li>
-</ul>
-</div>
-
 
 <div style="height:32px;">
 </div>
@@ -128,6 +120,9 @@
   </div>
 </div>
 <br /><br />
+
+<!--Start of the Feed area-->
+
 <div class="container text-center">
   <div class="row">
     <div class="col-1">
@@ -141,6 +136,60 @@
         <p>MAKE A LITTLE SECTION BELOW THAT SHOWS GREEN ACTIONS OF OTHER STUDENTS (acct name, maybe a small picture
           an action name, action, pts, and a comment from them about their action. Below each one a place to leave a comment,
           a place to like the post, etc.)</p>
+
+				<!--Start of the actual feed-->
+				<div class="accordion" id="accordionExample">
+				  <div class="card">
+				    <div class="card-header" id="headingOne" style="color:white; background: #286739;">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-decoration: none; color: white;">
+				          Luke Ewan |
+				        </button>
+				      </h5>
+				    </div>
+				    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				      <div class="card-body">
+				        <div class="row">
+									<div class="col-4" style="border-right: 6px solid #286739;">
+										<button type="button" class="btn btn-lg btn-block" style="color:white; background: #c8c372;">User Info</button>
+										<br /><br />
+										<img class="card-img" src="./images/user.png" alt="We look so good!" style="height:100px; width:100px;">
+										<br /><br />
+										Luke Ewan
+										<br /><br />
+										<div class="btn" style="color:white; background: #c8c372;">Total Pts: 27</div>
+									</div>
+									<div class="col-4" style="border-right: 6px solid #286739;">
+										<button type="button" class="btn btn-lg btn-block" style="color:white; background: #c8c372;">Action</button>
+									</div>
+									<div class="col-4">
+										<button type="button" class="btn btn-lg btn-block" style="color:white; background: #c8c372;">Badges & Points</button>
+									</div>
+								</div>
+								<br />
+								<div row="">
+									<h2>Comments</h2>
+									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+								</div>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+						<div class="card-header" style="color:white; background: #286739;" id="headingTwo">
+							<h5 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="text-decoration: none; color: white;">
+									Cam the Ram |
+								</button>
+							</h5>
+						</div>
+				    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				      <div class="card-body">
+				        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
       </div>
     </div>
     <div class="col-1">
