@@ -66,7 +66,10 @@ $(document).ready(function(){
   $("#addComment").click(function() {
     $('#validComment').show();
     $('#textComment').addClass('is-valid');
-    
+  });
+  $("#likeBtn").click(function() {
+    $('#likeGreen').show();
+    $('#likeBtn').hide();
   });
 
 });
@@ -372,7 +375,10 @@ $(document).ready(function(){
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Wow, this website is so fun and easy to use. What a great application! Bhaa.</textarea>
                   <br />
                   <div class="modal-footer">
-                    <button type="button" class="btn" style="color:white; background: #286739;">Like</button>
+                    <button type="button" id="likeBtn" class="btn" style="color:white; background: #286739;">Like</button>
+                    <div class="valid-feedback" id="likeGreen" style="display:none;">
+                      Comment Liked!
+                    </div>
                     <button type="button" id="comment" class="btn" style="color:white; background: #286739;">Comment</button>
                   </div>
                   <div>
