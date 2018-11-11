@@ -1,3 +1,21 @@
+<?php
+session_start();
+
+$_SESSION['acct'] = 'none';
+if (isset($_POST['btnLogin'])){
+   $acct = trim($_POST['acct']);
+   if ($acct === 'ewanlp'){
+      $_SESSION['acct'] = $acct;
+      header('Location: ./home.php');
+   }else if ($acct === 'admin'){
+      $_SESSION['acct'] = $acct;
+      header('Location: ./adminHome.php');
+   }
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en-US" >
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -73,14 +91,14 @@
 			  <div class="card-body">
 			    <h5 class="card-title">Log-In</h5>
 					<div class="">
-					  <form role="form" method="">
+					  <form role="form" method="POST">
 						<div class="form-group">
-						  <input type="text" class="form-control" id="usrname" placeholder="eID" name="txtemail">
+						  <input type="text" class="form-control" id="acct" placeholder="eID" name="acct">
 						</div>
 						<div class="form-group">
 						  <input type="password" class="form-control" id="psw" placeholder="eID Pass" name="txtpass">
 						</div>
-						  <a href="./home.html"class="btn btn-block" style="color:white; background: #286739;">Login</a>
+						  <button class="btn btn-block" type="submit" name="btnLogin" style="color:white; background: #286739;">Login</button>
 					  </form>
 					</div>
 			  </div>
@@ -136,4 +154,3 @@ function bars(x) {
 
 </body>
 </html>
-
