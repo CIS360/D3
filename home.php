@@ -167,7 +167,12 @@ $(document).ready(function(){
         <div class="card-body">
           <h5 class="card-title">Welcome!</h5>
           <p class="card-text">Green@CSU is finally here. A one-stop-shop for everything sustainability-related here at CSU.
-          ENTER MORE CONTENT HERE ABOUT THE SITE (VERY GENERAL) AND URGE THEM TO EXPLORE</p>
+                            Sustainability is becoming very important in todays society, and we are spearheading the way with this new engaging and fun website!
+                            Feel free to explore our site and when you enage in a sustainable action use this site to track your actions. You can compete with 
+                            your friends and also earn amazing prizes. Each action you engage in will reward you points based on the certain action and how often you completed it.
+		            Practice sustanability and have fun!
+                            Go Rams! 
+		</p>
         </div>
         <div class="card-footer text-muted">
           2 days ago
@@ -203,7 +208,20 @@ $(document).ready(function(){
                       </button>
                     </div>
                     <div class="modal-body">
-                      Here is the main content. Write something here. This is where the rules will go, and maybe some backgrond about the app.
+                             <p>
+			        <h2>How Green@CSU Started</h2>
+                                  Green@CSU got started by 4 CSU students who wanted make a site for sustainability. but make it interative and fun.
+                                  The students egaged in sustianable actions but wanted to keep track of what they were doing and come up with a point system
+                                  for each action. With the point systen in place they decided to make it a game and came up with prizes for students who had the most points.
+                             </p>
+			    
+			     <p> 
+				  <h2>How it works</h2> 
+                                  When a student completes a action, they can log into this site using there EID crenditials.
+                                  When logged in, students will see Enter a Green Action button, there you can enter a action you believe is sustainable and earn 
+                                  points depending on what you did and how many times you have completed this action. Its that easy! Enter as many actions as you would like
+                                  and it will update your profile along with your points. Check out your friends profiles and see how you match up! Have fun being sustainable Rams!
+                             </p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -313,10 +331,7 @@ $(document).ready(function(){
         <h1 class="display-4">Feed</h1>
         <p class="lead">Take a look at all the things your peers are doing now to be sustainable!</p>
         <hr class="my-4">
-        <p>MAKE A LITTLE SECTION BELOW THAT SHOWS GREEN ACTIONS OF OTHER STUDENTS (acct name, maybe a small picture
-          an action name, action, pts, and a comment from them about their action. Below each one a place to leave a comment,
-          a place to like the post, etc.)</p>
-
+	      
 				<!--Start of the actual feed-->
 				<div class="accordion" id="accordionExample">
 				  <div class="card">
