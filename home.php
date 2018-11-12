@@ -210,14 +210,14 @@ $(document).ready(function(){
                     <div class="modal-body">
                              <p>
 			        <h2>How Green@CSU Started</h2>
-                                  Green@CSU got started by 4 CSU students who wanted make a site for sustainability. but make it interative and fun.
-                                  The students egaged in sustianable actions but wanted to keep track of what they were doing and come up with a point system
-                                  for each action. With the point systen in place they decided to make it a game and came up with prizes for students who had the most points.
+                                  Green@CSU got started by four CSU students who wanted make a site for sustainability. but make it interactive and fun.
+                                  The students engaged in sustianable actions but wanted to keep track of what they were doing and come up with a point system
+                                  for each action. With the point system in place they decided to make it a game and came up with prizes for students who had the most points.
                              </p>
 			    
 			     <p> 
 				  <h2>How it works</h2> 
-                                  When a student completes a action, they can log into this site using there EID crenditials.
+                                  When a student completes a action, they can log into this site using there EID credentials.
                                   When logged in, students will see Enter a Green Action button, there you can enter a action you believe is sustainable and earn 
                                   points depending on what you did and how many times you have completed this action. Its that easy! Enter as many actions as you would like
                                   and it will update your profile along with your points. Check out your friends profiles and see how you match up! Have fun being sustainable Rams!
